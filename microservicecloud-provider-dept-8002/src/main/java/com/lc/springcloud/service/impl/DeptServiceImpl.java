@@ -4,6 +4,7 @@ import com.lc.springcloud.dao.DeptDao;
 import com.lc.springcloud.entities.Dept;
 import com.lc.springcloud.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
